@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kazuki/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/kazuki/ros2_ws_dfc/install/dfc_control_interface/include/**",
+        "/home/kazuki/uros_ws/install/visualization_msgs/include/**",
+        "/home/kazuki/uros_ws/install/test_msgs/include/**",
+        "/home/kazuki/uros_ws/install/example_interfaces/include/**",
+        "/home/kazuki/uros_ws/install/action_msgs/include/**",
+        "/home/kazuki/uros_ws/install/unique_identifier_msgs/include/**",
+        "/home/kazuki/uros_ws/install/trajectory_msgs/include/**",
+        "/home/kazuki/uros_ws/install/stereo_msgs/include/**",
+        "/home/kazuki/uros_ws/install/std_srvs/include/**",
+        "/home/kazuki/uros_ws/install/shape_msgs/include/**",
+        "/home/kazuki/uros_ws/install/sensor_msgs/include/**",
+        "/home/kazuki/uros_ws/install/nav_msgs/include/**",
+        "/home/kazuki/uros_ws/install/diagnostic_msgs/include/**",
+        "/home/kazuki/uros_ws/install/geometry_msgs/include/**",
+        "/home/kazuki/uros_ws/install/actionlib_msgs/include/**",
+        "/home/kazuki/uros_ws/install/std_msgs/include/**",
+        "/home/kazuki/uros_ws/install/statistics_msgs/include/**",
+        "/home/kazuki/uros_ws/install/rmw_microxrcedds/include/**",
+        "/home/kazuki/uros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/**",
+        "/home/kazuki/uros_ws/install/rosidl_typesupport_microxrcedds_c/include/**",
+        "/home/kazuki/uros_ws/install/rosgraph_msgs/include/**",
+        "/home/kazuki/uros_ws/install/rclc_parameter/include/**",
+        "/home/kazuki/uros_ws/install/rclc/include/**",
+        "/home/kazuki/uros_ws/install/composition_interfaces/include/**",
+        "/home/kazuki/uros_ws/install/rcl_interfaces/include/**",
+        "/home/kazuki/uros_ws/install/microxrcedds_client/include/**",
+        "/home/kazuki/uros_ws/install/microcdr/include/**",
+        "/home/kazuki/uros_ws/install/micro_ros_agent/include/**",
+        "/home/kazuki/uros_ws/install/micro_ros_msgs/include/**",
+        "/home/kazuki/uros_ws/install/lifecycle_msgs/include/**",
+        "/home/kazuki/uros_ws/install/complex_msgs/include/**",
+        "/home/kazuki/uros_ws/install/builtin_interfaces/include/**",
+        "/home/kazuki/catkin_ws/src/crocodile_robot/include/**",
+        "/home/kazuki/catkin_ws/src/dfc_control/include/**",
+        "/home/kazuki/catkin_ws/src/nanotank_ctrl/include/**",
+        "/home/kazuki/catkin_ws/src/ros_esp32_wifi/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
