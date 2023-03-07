@@ -50,7 +50,7 @@ def main():
     #subscriber
     rospy.Subscriber("joy", Joy, callback_joy, queue_size=2) #Joycon 
     #publisher
-    pub = rospy.Publisher('cugo_cmd', MotorCmd, queue_size=1)
+    pub = rospy.Publisher('nanocraw_cmd', MotorCmd, queue_size=1)
     #-----------------------------------------------------------------
 
     while not rospy.is_shutdown():
