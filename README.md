@@ -9,6 +9,6 @@ This is a ROS package for controlling the nanotank, and this package is based on
 - Geometry_msgs/Joy   
 
 [Arduino]   
-- pololi motoron-arduino   
+- pololu motoron-arduino   
 > https://github.com/pololu/motoron-arduino   
 
