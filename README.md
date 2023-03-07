@@ -1,5 +1,5 @@
 # nanotank controller   
-This is a ROS package for controlling the nanotank, and this package is based on ROS1. The nanotank is equipped with an arduino-compatible microcontroller (M5Stamp Pico), which communicates between ROS1 and the microcontroller via rosserial.
+This is a ROS package for controlling the nanocraw, and this package is based on ROS1. The nanotank is equipped with an arduino-compatible microcontroller (M5Stamp Pico), which communicates between ROS1 and the microcontroller via rosserial.
 
 # dependence packages   
 [ROS]   
