@@ -8,13 +8,13 @@ import time
 import rospy
 
 from sensor_msgs.msg import Joy
-from cugo_control.msg import MotorCmd
+from nanocraw.msg import CrawlerCmd
 
 #ROS
 node_cycle = 100 #[Hz]
 
 #ros message
-cmd_msg = MotorCmd()
+cmd_msg = CrawlerCmd()
 
 btn_info = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 axs_info = [0,0,0,0,0,0,0,0]
@@ -34,8 +34,8 @@ def status_print():
     print(btn_info)
     print(axs_info)
     print("[control status]------------------------")
-    print("right cmd : %d" %cmd_msg.left_motor)
-    print("left cmd  : %d" %cmd_msg.right_motor)
+    print("right cmd : %d" %cmd_msg.left)
+    print("left cmd  : %d" %cmd_msg.right)
 
 
 def main():
@@ -50,17 +50,17 @@ def main():
     #subscriber
     rospy.Subscriber("joy", Joy, callback_joy, queue_size=2) #Joycon 
     #publisher
-    pub = rospy.Publisher('nanocraw_cmd', MotorCmd, queue_size=1)
+    pub = rospy.Publisher('nanocraw_cmd', CrawlerCmd, queue_size=1)
     #-----------------------------------------------------------------
 
     while not rospy.is_shutdown():
         #control
         #wireless
-        #cmd_msg.left_motor  = int(axs_info[1] * 511)
-        #cmd_msg.right_motor = int(axs_info[4] * 511)
+        #cmd_msg.left  = int(axs_info[1] * 511)
+        #cmd_msg.right = int(axs_info[4] * 511)
         #wire
-        cmd_msg.left_motor  = int(axs_info[1] * 511)
-        cmd_msg.right_motor = int(axs_info[4] * 511)
+        cmd_msg.left  = int(axs_info[1] * 800)
+        cmd_msg.right = int(axs_info[4] * 800)
         status_print()
 
         #publish
