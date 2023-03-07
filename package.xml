@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>nanotank_ctrl</name>
+  <name>nanocraw_ctrl</name>
   <version>0.0.0</version>
   <description>The nanotank_ctrl package</description>
 
