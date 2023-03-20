@@ -8,7 +8,7 @@ import time
 import rospy
 
 from sensor_msgs.msg import Joy
-from nanocraw.msg import CrawlerCmd
+from nanocraw_ctrl.msg import CrawlerCmd
 
 #ROS
 node_cycle = 100 #[Hz]
@@ -34,8 +34,8 @@ def status_print():
     print(btn_info)
     print(axs_info)
     print("[control status]------------------------")
-    print("right cmd : %d" %cmd_msg.left)
-    print("left cmd  : %d" %cmd_msg.right)
+    print("right cmd : %d" %cmd_msg.right)
+    print("left cmd  : %d" %cmd_msg.left)
 
 
 def main():
