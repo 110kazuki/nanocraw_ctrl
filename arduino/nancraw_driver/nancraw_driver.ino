@@ -1,4 +1,4 @@
-#include <Motoron.h>
+#include <Motoron.h> //download from https://github.com/pololu/motoron-arduino
 #include <motoron_protocol.h>
 
 #include <Arduino.h>
