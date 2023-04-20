@@ -18,9 +18,9 @@ void error_loop();
 void wifi_setup();
 
 //Wi-Fi configration
-const char SSID[] = "110k-AP-2.4G";
-const char PASS[] = "110kazuki";
-IPAddress  HOST_IP( 192,168,8,211 ); //roscoreを実行するPCのIPアドレス
+const char SSID[] = "SSID";
+const char PASS[] = "password";
+IPAddress  HOST_IP( 192,168,8,211 ); //IP address of host (where roscore is running)
 const uint16_t serverPort = 11411;
 WiFiClient client;
 
