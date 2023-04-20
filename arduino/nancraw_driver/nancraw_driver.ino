@@ -10,17 +10,17 @@
 #include <ros.h>
 #include "nanocraw_ctrl/CrawlerCmd.h"
 
-#define LEFT_CRAWLER  1
-#define RIGHT_CRAWLER 2
+#define LEFT_CRAWLER  2
+#define RIGHT_CRAWLER 1
 
 void messageCb( const nanocraw_ctrl::CrawlerCmd& cmd_msg );
 void error_loop();
 void wifi_setup();
 
 //Wi-Fi configration
-const char SSID[] = "OsukaLab-M3-2.4G";
-const char PASS[] = "dscOsuka10";
-IPAddress  HOST_IP( 192,168,11,124 ); //roscoreを実行するPCのIPアドレス
+const char SSID[] = "110k-AP-2.4G";
+const char PASS[] = "110kazuki";
+IPAddress  HOST_IP( 192,168,8,211 ); //roscoreを実行するPCのIPアドレス
 const uint16_t serverPort = 11411;
 WiFiClient client;
 
