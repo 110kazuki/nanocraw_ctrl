@@ -42,6 +42,7 @@ This is a ROS package for controlling the nanocraw, and this package is based on
     ````
     
     Run the rosserial_arduino/make_libraries.py node in the Arduino ide library directory(e.g. `~/Arduino/libraries/`).  
+    Terminal ②  
     ```
     rosrun rosserial_arduino make_libraries.py .
     ```
