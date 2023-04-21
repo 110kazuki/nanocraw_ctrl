@@ -1,5 +1,5 @@
 # nanocraw controller   
-This is a ROS package for controlling the nanocraw, and this package is based on ROS1. The nanocraw is a palm-sized mobile robot. The nanocraw is equipped with an arduino-compatible microcontroller (M5 Stamp), which communicates between ROS1 and the microcontroller via rosserial.
+This is a ROS package for controlling the nanocraw, and this package is based on ROS1. The nanocraw is a palm-sized mobile robot. This robot is equipped with an arduino-compatible microcontroller (M5 Stamp), which communicates between ROS1 and the microcontroller via rosserial.
 
 ![banner](img/banner_image.png)
 
