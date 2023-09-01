@@ -18,6 +18,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   CrawlerCmd.msg
+  CrawlerUnit.msg
+  NanocrawStatus.msg
 )
 generate_messages(DEPENDENCIES std_msgs)
 
